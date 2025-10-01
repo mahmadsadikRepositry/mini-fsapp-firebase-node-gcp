@@ -1,0 +1,1 @@
+# mini-fsapp-firebase-node-gcp
