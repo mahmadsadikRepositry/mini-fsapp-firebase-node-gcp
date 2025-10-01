@@ -1,0 +1,46 @@
+[debug] [2025-10-01T22:13:22.981Z] ----------------------------------------------------------------------
+[debug] [2025-10-01T22:13:22.983Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\sadik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-10-01T22:13:22.983Z] CLI Version:   14.17.0
+[debug] [2025-10-01T22:13:22.984Z] Platform:      win32
+[debug] [2025-10-01T22:13:22.984Z] Node Version:  v20.15.0
+[debug] [2025-10-01T22:13:22.984Z] Time:          Wed Oct 01 2025 18:13:22 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-10-01T22:13:22.984Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-10-01T22:13:22.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-10-01T22:13:22.989Z] > authorizing via signed-in user (sadikkoliya@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\My_Projects\Mini_Project_M3\mini-fsapp-firebase-node-gcp
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-10-01T22:15:18.671Z] Checked if tokens are valid: true, expires at: 1759360365827
+[debug] [2025-10-01T22:15:18.671Z] Checked if tokens are valid: true, expires at: 1759360365827
+[debug] [2025-10-01T22:15:18.682Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-10-01T22:15:19.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-10-01T22:15:19.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mini-full-stack-web-app (Mini Full-Stack Web App) 
+[info] 
+=== Hosting Setup
+[debug] [2025-10-01T22:15:23.327Z] Checked if tokens are valid: true, expires at: 1759360365827
+[debug] [2025-10-01T22:15:23.327Z] Checked if tokens are valid: true, expires at: 1759360365827
+[debug] [2025-10-01T22:15:23.328Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mini-full-stack-web-app [none]
+[debug] [2025-10-01T22:15:23.527Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mini-full-stack-web-app 200
+[debug] [2025-10-01T22:15:23.527Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mini-full-stack-web-app {"projectId":"mini-full-stack-web-app","projectNumber":"624329209223","displayName":"Mini Full-Stack Web App","name":"projects/mini-full-stack-web-app","resources":{"hostingSite":"mini-full-stack-web-app"},"state":"ACTIVE","etag":"1_280b1108-b484-4391-92d7-c9a086a63127"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
