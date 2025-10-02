@@ -41,7 +41,7 @@ import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import ProtectedRoute from "./routes/ProtectedRoute";
 import { AppBar, Toolbar, Typography } from "@mui/material";
-import Login from "./auth/login";
+import Login from "./auth/Login";
 
 function App() {
   return (
