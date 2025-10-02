@@ -1,0 +1,25 @@
+{
+  "name": "mini-fsapp-backend",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon --watch src --exec node src/index.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.3.0",
+    "@fastify/helmet": "^13.0.2",
+    "axios": "^1.6.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^4.24.0",
+    "fastify-socket.io": "^5.1.0",
+    "firebase-admin": "^11.11.0",
+    "ioredis": "^5.3.2",
+    "pino-pretty": "^9.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
