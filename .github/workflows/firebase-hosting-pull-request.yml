@@ -27,3 +27,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_MINI_FULL_STACK_WEB_APP }}
           projectId: mini-full-stack-web-app
+          entryPoint: ./frontend
